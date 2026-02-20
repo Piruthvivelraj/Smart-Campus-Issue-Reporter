@@ -1,0 +1,15 @@
+{
+  "name": "smart-campus-issue-reporter",
+  "version": "1.0.0",
+  "description": "Full-stack MERN application for campus issue reporting",
+  "main": "server/index.js",
+  "scripts": {
+    "server": "node server/index.js",
+    "client": "cd client && npm start",
+    "dev": "cd server && node index.js",
+    "install-all": "npm install && cd client && npm install"
+  },
+  "keywords": ["mern", "issue-tracker", "campus"],
+  "author": "",
+  "license": "MIT"
+}
